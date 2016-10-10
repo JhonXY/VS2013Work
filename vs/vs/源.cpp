@@ -13,5 +13,21 @@ int main()
 		cout << i << "";
 	}
 	cout << "\n\nCounting by fives:\n";
-	for
+	for (int i = 0; i <= 50; i += 5)
+	{
+		cout << i << "";
+	}
+	cout << "\n\nCounting with null statements:\n";
+	const int ROWS = 5;
+	const int COLUMNS = 3;
+	for (int i = 0; i < ROWS; ++i)
+	{
+		for (int j = 0; j < COLUMNS; ++j)
+		{
+			cout << i << "," << j << "";
+		}
+		cout << endl;
+	}
+	system("pause");
+	return 0;
 }
