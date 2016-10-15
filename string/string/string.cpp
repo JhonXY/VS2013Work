@@ -5,7 +5,7 @@ int main()
 {
 	string word1 = "Game";
 	string word2("Over");
-	string word3(3, '£¡');
+	string word3(3, '!');
 
 	string phrase = word1 + "" + word2 + word3;
 	cout << "The phrase is:" << phrase << "\n\n";
@@ -19,7 +19,7 @@ int main()
 		cout << "Character at position" << i << "is:" << phrase[i] << endl;
 	}
 	cout << "\nThe sequence'Over'begains at location";
-	cout << phrase.find("over") << endl;
+	cout << phrase.find("Over") << endl;
 	if (phrase.find("eggplant") == string::npos)
 	{
 		cout << "'eggplant' is not in the phrase.\n\n";
